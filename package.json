@@ -1,32 +1,17 @@
 {
   "name": "LordMusicBOT",
-  "version": "0.1.0",
-  "description": "A simple discord music bot",
-  "main": "MusicBot.js",
+  "version": "1.0.0",
+  "description": "Discord bot music test",
+  "main": "server.js",
   "scripts": {
-    "start": "node MusicBot.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [
-    "discord",
-    "bot",
-    "discordbot"
-  ],
-  "author": "Rahkill",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.1.0",
-    "opusscript": "0.0.3",
-    "simple-youtube-api": "^3.0.0",
-    "ytdl-core": "^0.16.0"
+    "discord.js" : "11.0.0",
+    "ytdl-core" :  "github:fent/node-ytdl-core#master",
+    "node-opus" : "^0.2.1"
   },
-  "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-aqua": "^1.0.0"
-  },
-  "eslintConfig": {
-    "extends": "aqua",
-    "rules": {
-      "no-console": 0
-    }
-  }
+  "author": "Rahkill",
+  "license": "MIT"
 }
