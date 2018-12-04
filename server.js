@@ -96,5 +96,5 @@ client.on('ready', () => {
 client.on('message', msg => {
 	if (!msg.content.startsWith(prefix)) return;
 	if (commands.hasOwnProperty(msg.content.toLowerCase().slice(prefix.length).split(' ')[0])) commands[msg.content.toLowerCase().slice(prefix.length).split(' ')[0]](msg);
-]]});
+});
 client.login(token);
